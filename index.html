@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lazy Loading Website</title>
+  <style>
+    p, h1, marquee {
+      font-family: 'Abel', sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    h1 {
+      margin: 0px;
+    }
+    .subtitle {
+      margin: 0px;
+      padding: 0px;
+    }
+    img {
+      width: 100%;
+      padding: 2vh 0 0;
+    }
+    .credit-text {
+      display: inline;
+    }
+    article {
+      margin: 0 auto;
+      /* display: flex; */
+      /* justify-content: center; */
+      width: 1024px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <article>
+    <h1>Lazy Loading Images</h1>
+    <p class="subtitle">Unless your firefox, apparently</p>
+    <marquee behavior="" direction="">I gotchu boo... it's unfortunate that marquee is deprecated</marquee>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repellat, velit laborum nam quos facere officiis
+      vel mollitia odio distinctio tempora doloribus nobis quasi odit beatae reprehenderit exercitationem expedita id.
+      Aut magnam placeat illum ab pariatur velit. Fugiat rem itaque facilis culpa nesciunt voluptate esse iure porro
+      perspiciatis, laudantium labore eos saepe quasi illo veniam est, soluta architecto obcaecati quis!
+      Quasi voluptatibus minima repellat labore praesentium nobis, porro sed minus incidunt dolorum culpa voluptates
+      neque? Facere assumenda nam praesentium veritatis recusandae mollitia cumque? Pariatur quis error minima accusamus
+      nesciunt ducimus?
+      Nostrum reprehenderit, pariatur modi repellendus veritatis molestias voluptatem eaque nobis porro, adipisci rerum
+      voluptas dolore quo deserunt nihil, enim quos ipsum obcaecati ut accusamus? Harum at cumque cum praesentium
+      possimus?
+      Fugit accusamus excepturi facere expedita tempore molestiae nobis aut, rerum ducimus hic? Voluptatibus consectetur
+      ex fugiat sapiente voluptates necessitatibus accusantium quia quibusdam aliquid magnam? Autem rerum nisi laudantium
+      labore ducimus.
+      Optio sed est quisquam harum ipsa cupiditate, nam temporibus dolore sunt distinctio rem quae nesciunt et ea ullam,
+      fugiat dolores. At iusto, vel asperiores dicta hic fuga quibusdam veniam aut.
+      Voluptatum, nostrum reprehenderit architecto eligendi dolorum ipsam corrupti, consequatur quos nobis cumque ea est
+      porro reiciendis necessitatibus dolor ducimus voluptas id, amet sint accusantium tempore tenetur esse temporibus
+      deserunt? Facilis?
+      Porro quasi exercitationem voluptatem obcaecati asperiores laborum incidunt nam accusantium accusamus corporis iure
+      ipsam beatae odit reprehenderit, repellat nisi a aut. Veniam nam iusto laudantium ullam non fugiat autem
+      reprehenderit!
+      Magni expedita a culpa doloremque itaque. Fugit reiciendis itaque quibusdam necessitatibus, perferendis labore eum
+      totam rem quaerat eveniet sapiente cumque praesentium placeat iure, suscipit dignissimos a at cum, porro vel.
+      Voluptatibus fuga, quia laudantium a consequuntur error omnis voluptas, facere similique sunt iure quam laborum,
+      sint vel exercitationem! Neque voluptates accusamus fuga fugit illo culpa id, similique officiis temporibus rerum!
+    </p>
+    <!-- Doggo -->
+    <img class="photo" src="images\curology-1540981-unsplash.jpg" alt="Doggo">
+    <p class="credit-text">Image by Curology</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@curology?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Curology"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Curology</span></a>
+    <!-- European-lookin place -->
+    <img class="photo" data-src="images\karl-bewick-1633575-unsplash.jpg" alt="European-lookin place">
+    <p class="credit-text">Image by Karl Bewick</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@karlbewick?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Karl Bewick"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Karl Bewick</span></a>
+    <!-- People cookin' -->
+    <img class="photo" data-src="images\dane-deaner-1561445-unsplash.jpg" alt="People cookin'">
+    <p class="credit-text">Image byDane Deaner</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@danedeaner?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Dane Deaner"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Dane Deaner</span></a>
+    <!-- UNBGBBIIVCHIDCTIICBG -->
+    <img class="photo" data-src="images\devi-firdaus-1633528-unsplash.jpg" alt="UNBGBBIIVCHIDCTIICBG">
+    <p class="credit-text">Image by Devi Firdaus</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@dvfrds?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Devi Firdaus"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Devi Firdaus</span></a>
+    <!-- Phone doin' the credit card thing -->
+    <img class="photo" data-src="images\clay-banks-1554991-unsplash.jpg" alt="Phone doin' the creddit card thing">
+    <p class="credit-text">Image by Clay Banks</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@claybanks?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Clay Banks"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Clay Banks</span></a>
+    <!-- bae -->
+    <img class="photo" data-src="images\leon-macapagal-1633522-unsplash.jpg" alt="bae">
+    <p class="credit-text">Image by Leon Macapagal</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@imagevain?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Leon Macapagal"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Leon Macapagal</span></a>
+    <!-- graffiti -->
+    <img class="photo" data-src="images\jon-tyson-1633496-unsplash.jpg" alt="graffiti">
+    <p class="credit-text">Image by Jon Tyson</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@jontyson?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Jon Tyson"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Jon Tyson</span></a>
+    <!-- sad doggo -->
+    <img class="photo" data-src="images\gijs-coolen-1633194-unsplash.jpg" alt="sad doggo">
+    <p class="credit-text">Image by Gijs Coolen</p>
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+      href="https://unsplash.com/@gijsparadijs?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+      target="_blank" rel="noopener noreferrer"
+      title="Download free do whatever you want high-resolution photos from Gijs Coolen"><span
+        style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+        </svg></span><span style="display:inline-block;padding:2px 3px">Gijs Coolen</span></a>
+  </article>
+  <!-- Lazy loader -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+  <!-- Make the lazy loader do it's thing -->
+  <script>
+    const myLazyLoad = new LazyLoad({
+      elements_selector: ".photo"
+    });
+  </script>
+</body>
+
+</html>
